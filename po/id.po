@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Acme-Test-LocaleTextDomain 0.001\n"
 "Report-Msgid-Bugs-To: perlancar@cpan.org\n"
-"POT-Creation-Date: 2019-12-26 08:48+0700\n"
+"POT-Creation-Date: 2019-12-26 09:14+0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: lib/Acme/Test/LocaleTextDomain.pm:14
+#: lib/Acme/Test/LocaleTextDomain.pm:17
 msgid "Hello, world\n"
 msgstr "Halo, dunia\n"

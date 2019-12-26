@@ -8,7 +8,7 @@ package Acme::Test::LocaleTextDomain;
 use strict;
 use warnings;
 
-use Locale::TextDomain;
+use Locale::TextDomain 'Acme-Test-LocaleTextDomain';
 
 use Exporter qw(import);
 our @EXPORT_OK = qw(hello);
@@ -19,6 +19,8 @@ sub hello {
 
 1;
 # ABSTRACT: Test Locale::TextDomain
+
+=for Pod::Coverage ^(.+)$
 
 =head1 DESCRIPTION
 

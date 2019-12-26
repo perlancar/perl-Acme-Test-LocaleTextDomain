@@ -1,0 +1,22 @@
+#!perl
+
+use Acme::Test::LocaleTextDomain 'hello';
+hello;
+
+# ABSTRACT: Test Locale::TextDomain
+# PODNAME:
+
+=head1 SYNOPSIS
+
+English:
+
+ % acme-test-localetextdomain
+ Hello, world!
+
+Indonesian:
+
+ % LANGUAGE=id LANG=id acme-test-localetextdomain
+ Halo, dunia!
+
+(Note: LANGUAGE takes precedence over LANG; if you want to set LANG only, check
+whether LANGUAGE is already defined in your environment.)
